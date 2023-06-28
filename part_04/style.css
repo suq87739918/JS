@@ -1,0 +1,56 @@
+/*  use * selector to select everything in the page  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(243, 239, 193);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+  /* padding is used to define the spacing between the content of an element and its border. It specifies the amount of space that should be added inside the element's border. */
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* p selector is used to select all paragraph */
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: rgb(206, 219, 70);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* change the size of the image */
+#course-image {
+  width: 300px;
+}
+
+/* child selector: selector h2 in id="your-name" */
+#your-name h2 {
+  color: olivedrab;
+}

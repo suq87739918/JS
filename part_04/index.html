@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+</html>
+<!--What is the diff between "class" and "id": "id" must be unique, "class" can be used multiple times, for example we can use class="first" N tiems-->
+<html>
+  <head>
+    <title>Learning HTML & CSS</title>
+  </head>
+  <body>
+    <!-- h1 means this is a level 1 heading(to describe a heading), there are H1 to H6 -->
+    <h1>JavaScript is fun, but so is HTML and CSS</h1>
+    <!-- p means this is a paragraph -->
+    <p class="first">
+      You can learn JavaScript without HTML and CSS, but for DOM manipulation it
+      is usefulto have some basic idea of HTML and CSS, you can learn more about
+      it
+      <!--anchor锚元素(Jonas on Udemy), href(超文本引用) attribute describe this anchor(the link)-->
+      <a
+        href="https://www.udemy.com/user/jonasschmedtmann/?gclid=Cj0KCQjwy9-kBhCHARIsAHpBjHhS6eGVLedcZtamEU_3VwD8jgnyT6jOtE3orFaRrYrpBzvSmBf9boAaAnBREALw_wcB"
+        >on Udemy</a
+      >.
+    </p>
+    <!-- h1 is the biggest heading and h6 is the smallest heading -->
+    <h2>Another heading</h2>
+    <p class="second">Just another paragraph</p>
+    <img
+      id="course-image"
+      src="https://lh3.googleusercontent.com/Fa0hDKOSTZXgLmvzE0X4xnMgy0vv_Z9IQHBuT3Bf5QwtMWGyxZ11iO-a-2e0klkr6De7yFf_7MoHQvqAHSBaJ87-XcrzqjyBIdfWA6pa"
+    />
+    <form id="your-name">
+      <h2>Your name here</h2>
+      <p class="first">Please fill in this form</p>
+
+      <input type="text" placeholder="your name" />
+      <button>OK!</button>
+    </form>
+  </body>
+</html>
