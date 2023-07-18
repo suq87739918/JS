@@ -1,0 +1,10 @@
+1. compilation vs interpretation:
+    compilation: entire code is converted to machine code at once, and written to a bianry file that can be executed by a computer
+        Source code -->(compilation)machine code -->(execute)program running
+    interpretation: interpretation run through the Source code and execute it line by line
+        source code -->(execute)program running                 note: source code will still be converted to machine code, they just happen the same time
+
+    compilation is faster than interpretation
+
+    modern JS is the mix of compilation and interpretation:
+        entire code is converted to machine code at once, and NOT written to a bianry file, machine code is execute right after convertion by a computer
