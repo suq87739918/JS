@@ -16,39 +16,38 @@ A JavaScript implementation of the popular dice game.
 ### 4. Project 4: Bankist :bank:
 > The JavaScript logic for the application is divided into several parts.
 
----
-#### Account Data
-There are four sample user accounts, each with a different balance, transactions history, and pin.
+> ---
+> #### Account Data
+> There are four sample user accounts, each with a different balance, transactions history, and pin.
 
----
-#### Element Selection
-The necessary HTML elements are selected using the `document.querySelector()` method.
+> ---
+> #### Element Selection
+> The necessary HTML elements are selected using the `document.querySelector()` method.
 
----
-#### Display Movements
-This function loops through the movements (transactions) of the current account and adds them to the UI.
+> ---
+> #### Display Movements
+> This function loops through the movements (transactions) of the current account and adds them to the UI.
 
----
-#### Balance Calculation
-This function calculates the balance of the current account by summing up all the transactions.
+> ---
+> #### Balance Calculation
+> This function calculates the balance of the current account by summing up all the transactions.
 
----
-#### Summary Calculation
-This function calculates the total income, outgoing and interest of the current account.
+> ---
+> #### Summary Calculation
+> This function calculates the total income, outgoing and interest of the current account.
 
----
-#### Username Creation
-A username is generated for each account by taking the first letter of each word in the account owner's name.
+> ---
+> #### Username Creation
+> A username is generated for each account by taking the first letter of each word in the account owner's name.
 
----
-#### UI Update
-This function updates the UI by calling the functions to display movements, calculate and display balance, and calculate and display the summary.
+> ---
+> #### UI Update
+> This function updates the UI by calling the functions to display movements, calculate and display balance, and calculate and display the summary.
 
----
-#### Event Listeners
-Event listeners are added for login, money transfer, loan request, and account closing.
+> ---
+> #### Event Listeners
+> Event listeners are added for login, money transfer, loan request, and account closing.
 
----
 
 
 
